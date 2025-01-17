@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Project</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Start Home Section -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Salamun A'laik! This is</h3>
+            <h1>MD Saiful Islam</h1>
+            <h3>I am a <span class="text"></span>
+            </h3>
+            <p>Passionate aboutcreating dynamic and responsive web applications. I can create excellent
+            web application using Laravel framework by analyzing user requirements.
+            </p>
+
+            <div class="home-sci">
+                <a href="" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="" style="--i:9"><i class='bx bxl-linkedin'></i></a>
+                <a href="" style="--i:10"><i class='bx bxl-gmail'></i></a>
+            </div>
+
+            <a href="#" class="btn-box">More About Me</a>
+
+        </div>
+
+        <div class="home-image">
+            <img src="./assets/images/saif.jpg" alt="Profile Image">
+        </div>
+
+    </section>
+    <!-- End Home Section -->
+
+
+    <!-- Start About Section -->
+    <div class="about-header">
+        <h4>Meet Saif</h4>
+        <div class="about-underline"></div>
+    </div>
+
+    <section class="about-section">
+        <!-- Left Side (Image Div) -->
+        <div class="about-left">
+            <img src="./assets/images/data-gif.gif" alt="Profile Image">
+        </div>
+
+
+        <!-- Right Side (About Text Div) -->
+        <div class="about-right">
+            <!-- Toggle Buttons -->
+            <div class="toggle-container">
+                <button class="toggle-button active" onclick="showContent('about')">About</button>
+                <button class="toggle-button" onclick="showContent('skills')">Skills</button>
+                <button class="toggle-button" onclick="showContent('certification')">Certification</button>
+                <button class="toggle-button" onclick="showContent('education')">Education</button>
+            </div>
+        
+            <!-- Content Sections -->
+            <div class="content-section" id="about">
+
+                <!-- About Me Content -->
+                <h2>About Me</h2>
+                <p>Hello! I’m a dedicated Full Stack Developer with expertise in MERN Stack and Laravel.</p>
+            </div>
+
+            <div class="content-section hidden" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <!-- Front-End Column -->
+                    <div class="skills-column">
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li> <i class="fa-brands fa-html5"></i></i> HTML5</li>
+                            <li> <i class="fa-brands fa-css3"></i> CSS3</li>
+                            <li> <i class="fa-brands fa-js"></i> JavaScript</li>
+                            <li> <i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                        </ul>
+                    </div>
+                    <!-- Back-End Column -->
+                    <div class="skills-column">
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li> <i class="fa-brands fa-php"></i> PHP</li>
+                            <li> <i class="fa-solid fa-database"></i> MySQL</li>
+                            <li> <i class="fa-brands fa-laravel"></i> Laravel</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- Tools Column -->
+                    <div class="skills-column">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li> <i class='bx bxl-visual-studio'></i> VS Code</li>
+                            <li> <i class="fa-brands fa-git-alt" ></i> Git </li>
+                            <li> <i class="fa-brands fa-github"></i> GitHub </li>
+                            <li> <i class="fa-solid fa-microscope"></i> Postman</li>
+                            <li> <i class='bx bxl-adobe'></i>  Photoshop</li>
+                            <li> <i class='bx bxl-adobe'></i>  Illustrator</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section hidden" id="certification">
+                <h1>Certification</h1> <br><br>
+
+                <h3 style="color: cyan;">OSTAD</h3>
+                <p style="color: rgb(129, 143, 144);"> Mar 2024 - Sep 2024 (6 Months)</p>
+                <p>Web Development with PHP & Laravel</p>  <br>
+
+                <h3 style="color: cyan;">DIPTI</h3>
+                <p style="color: rgb(129, 143, 144);"> Mar 2023 - Mar 2024 (1 Year)</p>
+                <p>Diploma in Web & E-Commerce</p>  <br>
+
+                <h3 style="color: cyan;">DIPTI</h3>
+                <p style="color: rgb(129, 143, 144);"> One-day Workshop</p>
+                <p>Critical Thinking</p>  <br>
+
+
+            </div>
+
+            <div class="content-section hidden" id="education">
+                <h1>Education</h1> <br><br>
+                
+                <p style="color: rgb(129, 143, 144);"> 2024</p>
+                <p> An-Noor Islamia Madrasah </p> 
+                <h3 style="color: cyan;"> Takmil (Master's) </h3>
+                <pre>Result:      Jayyid Jiddan</pre>
+                
+                <br>
+  
+                <p style="color: rgb(129, 143, 144);"> 2019 - 2024 (4 Years)</p>
+                <p>Institute of Science and Technology (IST) </p> 
+                <h3 style="color: cyan;"> Diploma in Computer Engineering </h3>
+                <pre>Result:      CGPA: 3.64 / 4.00</pre>
+                
+                <br>
+  
+                <p style="color: rgb(129, 143, 144);"> 2019</p>
+                <p> Gadairchar Achia Islamia Alim Madrasah </p> 
+                <h3 style="color: cyan;"> Dakhil (Secondery School Certificate) </h3>
+                <pre>Result:      GPA: 4.25 / 5.00</pre>
+                
+                <br>
+  
+                
+
+        </div>
+
+    </section>
+
+    <!-- End About Section -->
+
+
+    <!-- Start Project Section -->
+
+    <section class="project-section">
+        <h2 class="section-title">Project</h2>
+        <div class="project-underline"></div>
+        <div class="project-container">
+            <!-- Project Box 1 -->
+            <div class="project-box">
+                <img src="./assets/images/web project 1.jpg" alt="Project 1" class="project-img">
+                <h3 class="project-title">POS App (Full Stack)</h3>
+                <a href="https://example.com/project1" class="view-btn" target="_blank">View Project</a>
+            </div>
+            <!-- Project Box 2 -->
+            <div class="project-box">
+                <img src="./assets/images/web project 2.jpg" alt="Project 2" class="project-img">
+                <h3 class="project-title">CRUD App (PHP)</h3>
+                <a href="https://example.com/project2" class="view-btn" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- End Project Section -->
+
+
+    <!-- Start Blog Section -->
+    
+    <section class="blog-section">
+        <div class="blog-section-heading">
+            <h2>My Blog</h2>
+            <div class="blog-underline"></div>
+        </div>
+        <div class="blog-container">
+            <!-- 1st Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/js.jpg" alt="Blog 1">
+                </div>
+                <div class="blog-content">
+                    <h3>What is JavaScript</h3>
+                    <a href="blog1.html" class="read-btn">Read</a>
+                </div>
+            </div>
+            <!-- 2nd Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/php.jpg" alt="Blog 2">
+                </div>
+                <div class="blog-content">
+                    <h3>What is PHP</h3>
+                    <a href="blog2.html" class="read-btn">Read</a>
+                </div>
+            </div>
+            <!-- 3rd Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/laravel.jpg" alt="Blog 3">
+                </div>
+                <div class="blog-content">
+                    <h3>What is Laravel</h3>
+                    <a href="blog3.html" class="read-btn">Read</a>
+                </div>
+            </div>
+            <!-- 4th Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/js.jpg" alt="Blog 1">
+                </div>
+                <div class="blog-content">
+                    <h3>What is JavaScript</h3>
+                    <a href="blog1.html" class="read-btn">Read</a>
+                </div>
+            </div>
+            <!-- 5th Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/php.jpg" alt="Blog 2">
+                </div>
+                <div class="blog-content">
+                    <h3>What is PHP</h3>
+                    <a href="blog2.html" class="read-btn">Read</a>
+                </div>
+            </div>
+            <!-- 6th Blog Box -->
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="./assets/images/laravel.jpg" alt="Blog 3">
+                </div>
+                <div class="blog-content">
+                    <h3>What is Laravel</h3>
+                    <a href="blog3.html" class="read-btn">Read</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
+
+    <!-- Start Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Left Side Contact Information -->
+            <div class="contact-info">
+                <h2>Let’s link up</h2>
+                <div class="contact-underline"></div>
+                <p>
+                    Currently exploring new opportunities, I welcome your messages. Whether you have questions or just want to say hello, rest assured, I’ll prioritize responding promptly!
+                </p>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +88 01784044467</li>
+                    <li><i class="fas fa-phone"></i> +88 01923999788</li>
+                    <li><i class="fas fa-envelope"></i> saifse454@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Azimpur, Dhaka-1205, Bangladesh</li>
+                </ul>
+            </div>
+            <!-- Right Side Contact Form -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/meoowpry" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- End Contact Section -->
+
+
+
+    <!-- Start Footer Section -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo --> <br><br><br><br>
+            <div class="footer-logo">
+                <!-- <img src="logo.png" alt="Saiful Islam Logo"> -->
+            </div>
+    
+            <!-- Navigation Links -->
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Social Icons -->
+            <div class="home-sci">
+                <a href="" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="" style="--i:9"><i class='bx bxl-linkedin'></i></a>
+                <a href="" style="--i:10"><i class='bx bxl-gmail'></i></a>
+            </div>
+    
+            <!-- Credits -->
+            <div class="footer-credits">
+                <!-- <p>Designed & Built by Saiful Islam</p> -->
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- End Footer Section -->
+
+
+
+
+
+    <script src="./main.js"></script>
+            
+</body>
+</html>
