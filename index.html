@@ -12,6 +12,10 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- Bootstrap CDN -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
 </head>
 <body>
     <header class="header">
@@ -65,10 +69,28 @@
     <section class="about-section">
         <!-- Left Side (Image Div) -->
         <div class="about-left">
-            <img src="./assets/images/data-gif.gif" alt="Profile Image">
+            <div class="services-container">
+    <h2 class="services-heading" style="color: white;">My Services</h2>
+    <div class="service-card">
+        <h3>Web Design</h3>
+        <p>Modern and responsive web designs tailored to your brand.</p>
+    </div>
+    <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Full-stack development using the latest technologies.</p>
+    </div>
+    <div class="service-card">
+        <h3>Bug Fixing</h3>
+        <p>Quick resolution of website or application bugs.</p>
+    </div>
+    <div class="service-card">
+        <h3>Domain & Hosting</h3>
+        <p>Get help with domain registration and reliable hosting setup.</p>
+    </div>
+</div>
+
         </div>
-
-
+        
         <!-- Right Side (About Text Div) -->
         <div class="about-right">
             <!-- Toggle Buttons -->
@@ -76,7 +98,7 @@
                 <button class="toggle-button active" onclick="showContent('about')">About</button>
                 <button class="toggle-button" onclick="showContent('skills')">Skills</button>
                 <button class="toggle-button" onclick="showContent('certification')">Certification</button>
-                <button class="toggle-button" onclick="showContent('education')">Education</button>
+                <button class="toggle-button" onclick="showContent('education')">Education</button>  
             </div>
         
             <!-- Content Sections -->
@@ -84,8 +106,7 @@
 
                 <!-- About Me Content -->
                 <h2>About Me</h2>
-                <p>Salamun A'laik!
-                <br>I am <strong> Saiful Islam </strong> Passionate about  programming. 
+                <p>I am <strong> Saiful Islam </strong> Passionate about  programming. 
                 <br>Since childhood, I had a strong interest in technology-related topics. But, due to a lack of resources and guidelines, couldn't learn much at that time. Later, while studying in a madrasa, I started collecting various resources on my own and gradually developed a passion for programming. By coincidence, I got the opportunity to pursue a Diploma in Computer Engineering, where I learned about web and software-related subjects. During my studies, I took professional training and acquired skills in Front-End and Back-End development with essential technologies. Now, I am eager to start a career in web application development, combining my skills to build responsive and dynamic solutions.</p>
             </div>
 
