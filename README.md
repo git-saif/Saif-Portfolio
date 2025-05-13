@@ -1,53 +1,79 @@
-<h1 align="center">Hi there 👋, I'm [Your Name]</h1>
-<h3 align="center">A passionate [Your Role - e.g., Web Developer, Data Scientist] from [Your Country]</h3>
+![Banner](https://raw.githubusercontent.com/git-saif/Saif-Portfolio/main/assets/images/git%20banner%20saif.jpeg)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat" alt="your-username" />
-</p>
-
-- 🔭 I’m currently working on **[Your Project Name]**
-
-- 🌱 I’m currently learning **[Technologies you're learning]**
-
-- 👯 I’m looking to collaborate on **[Projects you want to collaborate on]**
-
-- 🤝 I’m looking for help with **[Any area where you seek help]**
-
-- 💬 Ask me about **[Your areas of expertise]**
-
-- 📫 How to reach me **[your.email@example.com]**
-
-- 📄 Know about my experiences [Resume/CV link]
-
-- ⚡ Fun fact **[Something fun about you!]**
+<h1 align="center">Hi there 👋, I'm MD Saiful Islam</h1>
+<h3 align="center">A passionate Full Stack Web Developer from Bangladesh</h3>
 
 ---
 
-### 🛠️ Languages and Tools:
-<p>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <!-- Add more as needed -->
-</p>
+### 🎯 Career Objective
+
+To excel as a **Technologist & Full Stack Web Developer** by leveraging my strong programming skills and knowledge of various web technologies. I am highly passionate about backend technologies. My goal is to contribute effectively to the technology sector and continuously enhance my expertise.
 
 ---
 
-### 📊 GitHub Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" alt="your-username" />
-</p>
+### 👨‍💻 About Me
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical" alt="your-username" />
-</p>
+- 🔭 I’m currently working on **full stack web applications**
+- 🌱 Currently learning **Vue.js, Livewire, and REST APIs**
+- 👯 I’m looking to collaborate on **web development projects**
+- 💬 Ask me about **Backend Development, PHP, Laravel**
+- 📫 Reach me at: **saifse454@gmail.com**
+- 🌐 Visit my Portfolio: [git-saif.github.io/Saif-Portfolio](https://git-saif.github.io/Saif-Portfolio)
+- 🔗 Connect on [LinkedIn](https://www.linkedin.com/in/sesaif/)
+- 📞 Phone: +880 1784044467
 
 ---
 
-### 🔗 Connect with me:
-<p align="left">
-  <a href="https://linkedin.com/in/your-linkedin" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="linkedin" height="20" width="20" /></a>
-  <a href="https://twitter.com/your-twitter" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="twitter" height="20" width="20" /></a>
-  <!-- Add more as needed -->
+### 🛠️ Skills & Technologies
+
+**🔧 Back-End:**  
+`PHP` | `MySQL` | `Laravel`
+
+**🎨 Front-End:**  
+`HTML5` | `CSS3` | `Bootstrap` | `JavaScript`
+
+**🧰 Tools & Platforms:**  
+`Git` | `GitHub` | `VS Code` | `Postman`
+
+**📚 Familiar With:**  
+`ES6` | `Vue.js` | `REST API` | `JWT` | `Livewire` | `Tailwind CSS`
+
+---
+
+### 📖 Academic Qualification
+
+**🎓 Diploma in Computer Engineering**  
+*Institute of Science and Technology*  
+2019 – 2023 | CGPA: 3.64 / 4.00
+
+**📘 Dakhil (SSC Equivalent)**  
+*Achia Islamia Alim Madrasah*  
+2018 – 2019 | GPA: 4.25 / 5.00
+
+---
+
+### 🧠 Soft Skills
+
+✔ Hard-working  
+✔ Quick Learner  
+✔ Adaptability  
+✔ Can-do Attitude  
+✔ Impatience for Perfection  
+✔ Problem Solving Mindset
+
+---
+
+### 📊 GitHub Stats
+
+| <a href="https://github.com/git-saif"><img align="center" src="https://github-readme-stats.vercel.app/api?username=git-saif&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Saif's github stats" /></a> | <a href="https://github.com/git-saif"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=git-saif&layout=compact&theme=buefy&hide_border=true" /></a> |
+| ------------- | ------------- |
+
+---
+
+### 🤝 Let's Connect
+
+<p align="center">
+  <a href="mailto:saifse454@gmail.com" target="_blank"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/sesaif/" target="_blank"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://git-saif.github.io/Saif-Portfolio" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
 </p>
